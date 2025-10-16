@@ -1,0 +1,67 @@
+'routePass'
+
+
+'SpeedSkillNoList'
+'SppedSkillTypeList'
+'StrategySkillNoList'
+'RandomSkillNoList'
+'myOwnSkillList'
+
+
+'myCommentList'
+'myName'
+'myRank'
+'myRankCount'
+'myFavoriteSkillNo'
+'myFavoriteSkillName'
+'myScissorCount'
+'myPaperCount'
+'myRockCount'
+'myBattleCount'
+'myWinCount'
+'myHonestCount'
+'myWinStreak'
+'mySkillCount_$myBattleSkillNo' //スキルだした回数
+'mySkillActive_$myBattleSkillNo' //スキル発動した回数
+''
+
+//バトル以外のプレイヤー情報
+'myFriendList'
+'myFriendRequest'
+'myGachaPoint'
+'myLevel'
+'myLevelExp'
+'myTrophy'
+'myFriendId'
+'myIcon'
+
+//掲示板用変数
+'myLikePosts'
+'myPosts'
+'myBlockList'
+
+//icon掲示板用変数　特に著作権
+'iconOriginId'
+'iconOriginName'
+'iconOriginPostId'
+'iconOriginPostTitle'
+
+
+//対戦データ用
+'gameTypeLog'
+'resultLog'
+
+'enemyNameLog'
+'enemyRankLog'
+'enemyCardLog'
+'enemyPointLog'
+
+'myRankLog'
+'myCardLog'
+'myPointLog'
+
+'dateLog'
+
+//ミニゲーム
+'myJankenStreak' //連勝じゃんけん記録
+'myJankenMaxPoint' //連勝じゃんけん最大獲得額

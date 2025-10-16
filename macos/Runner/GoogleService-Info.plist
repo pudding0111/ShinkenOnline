@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>878493758920-937vn10iib8m391j09cudjh054ph2ftc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.878493758920-937vn10iib8m391j09cudjh054ph2ftc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQkyTgVRrrcunwFsgO2wYYFtU3b4dAlqk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>878493758920</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shinken.flutterApplication1</string>
+	<key>PROJECT_ID</key>
+	<string>jankenonline-d4ea1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jankenonline-d4ea1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:878493758920:ios:4f968323589ab1be2cbcfd</string>
+	<key>DATABASE_URL</key>
+	<string>https://jankenonline-d4ea1-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
