@@ -1,0 +1,131 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "async",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/async-2.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "camera",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/camera-0.11.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "camera_android_camerax",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/camera_android_camerax-0.6.9+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "camera_avfoundation",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.17+3",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "camera_platform_interface",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/camera_platform_interface-2.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "camera_web",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/camera_web-0.3.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/characters-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/collection-1.19.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "cross_file",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/cross_file-0.3.4+2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/kasekazuki/Desktop/Flutter/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.23",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/kasekazuki/Desktop/Flutter/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "material_color_utilities",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/meta-1.15.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/kasekazuki/Desktop/Flutter/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/stream_transform-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/kasekazuki/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "gradle_deprecated_settings",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    }
+  ],
+  "generated": "2025-01-05T03:41:28.071799Z",
+  "generator": "pub",
+  "generatorVersion": "3.6.0",
+  "flutterRoot": "file:///Users/kasekazuki/Desktop/Flutter/flutter",
+  "flutterVersion": "3.27.1",
+  "pubCache": "file:///Users/kasekazuki/.pub-cache"
+}
