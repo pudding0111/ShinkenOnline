@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "878493758920",
+    "firebase_url": "https://jankenonline-d4ea1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "jankenonline-d4ea1",
+    "storage_bucket": "jankenonline-d4ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878493758920:android:7c9a6238ee23cb472cbcfd",
+        "android_client_info": {
+          "package_name": "com.shinken.flutter_shinkenOnline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878493758920-pp20ikfsaa2h8ffs1m4v8scijjddgpvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa9InJo20g2_8cvTVMf9rkXKbqaaF0W-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878493758920-pp20ikfsaa2h8ffs1m4v8scijjddgpvp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "878493758920-mgesk15j9vjbpus819r5bak42sguaqpq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kasekazuki.jankenOnline",
+                "app_store_id": "6505104492"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
