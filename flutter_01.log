@@ -1,0 +1,93 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+RPCError: getVM: (-32000) Service connection disposed
+
+```
+#0      VmService._call (package:vm_service/src/vm_service.dart:1769:7)
+#1      VmService.getVM (package:vm_service/src/vm_service.dart:1245:25)
+#2      FlutterDevice.initLogReader (package:flutter_tools/src/resident_runner.dart:428:55)
+#3      HotRunner.attach (package:flutter_tools/src/run_hot.dart:266:21)
+<asynchronous suspension>
+#4      RunCommand.runCommand (package:flutter_tools/src/commands/run.dart:867:27)
+<asynchronous suspension>
+#5      FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1408:27)
+<asynchronous suspension>
+#6      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#7      CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+<asynchronous suspension>
+#8      FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:420:9)
+<asynchronous suspension>
+#9      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#10     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:364:5)
+<asynchronous suspension>
+#11     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:130:9)
+<asynchronous suspension>
+#12     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#13     main (package:flutter_tools/executable.dart:93:3)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.24.3, on macOS 15.0 24A335 darwin-arm64, locale ja-JP)
+    [32m•[39m Flutter version 3.24.3 on channel stable at /Users/kasekazuki/Desktop/Flutter/flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 2663184aa7 (5 weeks ago), 2024-09-11 16:27:48 -0500
+    [32m•[39m Engine revision 36335019a8
+    [32m•[39m Dart version 3.5.3
+    [32m•[39m DevTools version 2.37.3
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 35.0.0)
+    [32m•[39m Android SDK at /Users/kasekazuki/Library/Android/sdk
+    [31m✗[39m cmdline-tools component is missing
+      Run `path/to/sdkmanager --install "cmdline-tools;latest"`
+      See https://developer.android.com/studio/command-line for more details.
+    [31m✗[39m Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/to/macos-android-setup for more details.
+
+[32m[✓][39m Xcode - develop for iOS and macOS (Xcode 16.0)
+    [32m•[39m Xcode at /Applications/Xcode.app/Contents/Developer
+    [32m•[39m Build 16A242d
+    [32m•[39m CocoaPods version 1.15.2
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[32m[✓][39m Android Studio (version 2024.1)
+    [32m•[39m Android Studio at /Applications/Android Studio.app/Contents
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 17.0.11+0-17.0.11b1207.24-11852314)
+
+[32m[✓][39m VS Code (version 1.90.2)
+    [32m•[39m VS Code at /Users/kasekazuki/Desktop/Visual Studio Code.app/Contents
+    [32m•[39m Flutter extension version 3.98.0
+
+[32m[✓][39m Connected device (7 available)
+    [32m•[39m sdk gphone64 arm64 (mobile)     • emulator-5554             • android-arm64  • Android 15 (API 35) (emulator)
+    [32m•[39m 加瀬一輝のiPhone (mobile)            • 00008030-00122C520C06402E • ios            • iOS 17.6.1 21G93
+    [32m•[39m KK (mobile)                     • 00008020-000650443AC1402E • ios            • iOS 17.6.1 21G93
+    [32m•[39m kasseyのiPhoneSE (mobile)        • 00008110-001C08993A7A201E • ios            • iOS 17.6.1 21G93
+    [32m•[39m macOS (desktop)                 • macos                     • darwin-arm64   • macOS 15.0 24A335 darwin-arm64
+    [32m•[39m Mac Designed for iPad (desktop) • mac-designed-for-ipad     • darwin         • macOS 15.0 24A335 darwin-arm64
+    [32m•[39m Chrome (web)                    • chrome                    • web-javascript • Google Chrome 129.0.6668.101
+
+[32m[✓][39m Network resources
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 1 category.
+```
